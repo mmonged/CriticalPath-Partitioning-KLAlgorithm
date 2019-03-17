@@ -1,5 +1,5 @@
 # CriticalPath-Partitioning-KL-Algorithm
-Use c++14 to compile.
+c++14 to has been used during working on this.
 
 This code reads a Netlist file, then create a connectivity matrix for the netlist. After that, it performs a proper partitioning using KL Algorithm. The code also extracts the different paths, calculate the maximum propagation delay for each node, and then determine the suitable clock period.
 
