@@ -1,4 +1,6 @@
 # CriticalPath-Partitioning-KL-Algorithm
+Use c++14 to compile.
+
 This code reads a Netlist file, then create a connectivity matrix for the netlist. After that, it performs a proper partitioning using KL Algorithm. The code also extracts the different paths, calculate the maximum propagation delay for each node, and then determine the suitable clock period.
 
 The code is parameterized for the number of inputs per gate, the number of transistors per gate and delay per gate. I used structs and linked lists to avoid the limitations of the maximum size of arrays.
